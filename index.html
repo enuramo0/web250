@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" type="text/css" href="styles/default.css">
+        <link rel="stylesheet" type="text/css" href="styles/brand.css">
         <title>Endale Nuramo: WEB250 Introduction</title>
 </head>
 <body>
-<header>
+	<div data-include="components/brand_header.html"></div>
+
         <h1>Endale Nuramo - WEB250 Database Driven Websites</h1>           
-</header>
+
 <main>
 	<figure>
                <figcaption>
@@ -23,7 +24,7 @@
                <li><strong>Primary Computer Platform:</strong> Windows.</li>
                <li><strong>Courses I'm taking, and Why:</strong>  
                        <ul>
-                       	<li><strong class="web-250">WEB-250:</strong></a> I am taking this course as a substitution for CTI-289 and to learn how to develop dynamic webpages. <a class="contract-link" href="http://students.cpcc.edu/~enuramo0/web250/contract.html">Link to WEB-250 contract.</a>  
+                       	<li><strong class="web-250">WEB-250:</strong></a> I am taking this course as a substitution for CTI-289 and to learn how to develop dynamic webpages. <a class="contract-link" href="contract.html">Link to WEB-250 contract.</a>  
 			</li>
                        </ul>
                <li><strong>Something to Remember Me By:</strong>  I am not sure for now.</li>
@@ -31,23 +32,8 @@
         </ul>
 </main>
 <footer>
-        <div class="bottomnav">
-               <a id="webs" href="http://students.cpcc.edu/~enuramo0/web250/" target="_blank">Webspace|</a> 
-               <a id="git" href="https://github.com/enuramo0" target="_blank">Github|</a>
-               <a id="githubsite" href="https://github.com/enuramo0/Introduction">Github Pages|</a>
-               <a id="codecamp" href ="https://www.freecodecamp.org/endale" target="_blank">FreecodeCamp|</a> 
-               <a id="khan" href="https://www.khanacademy.org/profile/endalee/">KhanAcademy</a> 
-        </div> 
-        <br>
- 	 <a href="http://validator.w3.org/check?uri=referer">
-                <img src="http://students.cpcc.edu/~enuramo0/web250/images/images/valid_html5.gif"  alt="Valid HTML 5" 
-                height="31" width="88" style="border:0px;"/>
-        </a>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0; width:88px; height:31px"
-                src="http://students.cpcc.edu/~enuramo0/web250/images/images/css-validator.gif"
-                alt="CSS Validation Button" />
-       </a>     
+	<div data-include="components/brand_footer.html"></div>
+        <script src="scripts/htmlinclude.js"></script>     
 </footer>
 </body>
 </html>
