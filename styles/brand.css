@@ -124,6 +124,9 @@ footer{
 	position: absolute;
 	z-index: 11;
 }
+.center {
+	text-align: center;
+}
 
 a{
 	text-decoration: none;
